@@ -10,8 +10,8 @@ public class GerarContraCheque {
 		
 		float valorHora = 10f;
 		
-		String matricula = JOptionPane.showInputDialog("Digite a Matricula:");
-        String nome = JOptionPane.showInputDialog("Digite o Nome:");
+		String matricula = JOptionPane.showInputDialog("Digite a Matricula: ");
+        String nome = JOptionPane.showInputDialog("Digite o Nome: ");
         int horas = Integer.parseInt(JOptionPane.showInputDialog("Digite o tatal de horas trabalhadas"));
         float  minutos = Float.parseFloat(JOptionPane.showInputDialog("Digite o restantes dos minutos"));
         float complementoHoras = minutos/60;
@@ -61,13 +61,13 @@ public class GerarContraCheque {
         
         JOptionPane.showMessageDialog(null, 
         		    "** CONTRA CHEQUE **"
-        		+ "\nMatricula/Nome: "+matricula+"/"+nome
-        		+ "\nSalarioBase: "+df.format(salario)
-        		+ "\nValor DSR: "+df.format(dsr)
-        		+ "\nValor INSS: "+df.format(valorInss)
-        		+ "\nValor do IR: "+df.format(valorIr)
-        		+ "\nTotal Bruto: "+df.format(salarioBruto)
-        		+ "\nTotal Liquido: "+df.format(salarioLiquido));
+        		+ " \nMatricula/Nome: "+matricula+" / "+nome
+        		+ " \nSalarioBase: "+df.format(salario)
+        		+ " \nValor DSR: "+df.format(dsr)
+        		+ " \nValor INSS: "+df.format(valorInss)
+        		+ " \nValor do IR: "+df.format(valorIr)
+        		+ " \nTotal Bruto: "+df.format(salarioBruto)
+        		+ " \nTotal Liquido: "+df.format(salarioLiquido));
 	
 
 	}

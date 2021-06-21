@@ -24,7 +24,7 @@ public class Questao04 {
 				JOptionPane.showMessageDialog(null, "Tente Novamente "+i+" Tentativas");
 			}
 					
-			
+		
 		}
 		
 	}
